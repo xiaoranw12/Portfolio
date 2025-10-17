@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Sharon Wang | Data Scientist&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--bg: #0f172a;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--text: #e2e8f0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--accent: #38bdf8;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--card: #1e293b;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Inter', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: var(--bg);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--text);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 1.5rem 3rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: rgba(15, 23, 42, 0.9);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: sticky;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>backdrop-filter: blur(10px);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>header h1 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.4rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--accent);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>nav a {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--text);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-left: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: color 0.2s ease;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>nav a:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--accent);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 6rem 2rem 4rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero h2 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 2.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero p {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #cbd5e1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.avatar {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 130px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 130px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>object-fit: cover;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 3px solid var(--accent);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>section {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 3rem 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 900px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>h3 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--accent);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.projects {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: var(--card);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: transform 0.2s ease;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transform: translateY(-5px);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card h4 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--accent);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>footer {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-top: 1px solid #334155;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #94a3b8;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.links a {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--accent);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.links a:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: underline;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 600px) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>nav {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-top: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Sharon Wang&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#about"&gt;About&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#projects"&gt;Projects&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#contact"&gt;Contact&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;img src="https://avatars.githubusercontent.com/u/000000?v=4" alt="Avatar" class="avatar" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Hi, I'm Sharon 👋&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Data Scientist passionate about analytics and optimization.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="about"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;About Me&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>I'm a data scientist with strong analytical and technical skills in Python, SQL, and machine learning.<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>I love transforming data into insights that drive business value and optimization.<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>Currently exploring AI applications in financial and operational analytics.</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="projects"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Projects&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="projects"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;📊 Predictive Analytics Dashboard&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Developed an end-to-end data pipeline and visualization dashboard to forecast business KPIs.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h4&gt;🚚 Logistics Optimization Model&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Built a machine learning model optimizing transportation costs and delivery time for JD Logistics.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Contact&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Feel free to reach out — I’d love to connect!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="mailto:sharonwang@myyahoo.com"&gt;Email&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="https://linkedin.com/in/wangxiaoran/" target="_blank"&gt;LinkedIn&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;© 2025 Sharon Wang · Built with ❤️ using GitHub Pages&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
